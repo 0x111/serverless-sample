@@ -8,6 +8,6 @@ GO_IMPORT_PATH = "github.com/0x111/serverless-sample"
 GO111MODULE = "on"
 
 [[redirects]]
-from = "/api/*"
+from = "/today"
 to = "/.netlify/functions/gateway/:splat"
 status = 200
